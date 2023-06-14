@@ -1,0 +1,136 @@
+.Container {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    gap: 1.7%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: rgb(246, 240, 240);
+    background-color: black;
+  }
+  .heading {
+    width: 10vw;
+    font-size: 38px;
+    padding: 1%;
+    display: flex;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #0638ec;
+  }
+  .heading:hover {
+    color: rgb(250, 245, 245);
+  }
+  
+  .input {
+    border: 2px solid rgb(165, 163, 162);
+    margin-left: 25%;
+    height: 35px;
+    width: 40vw;
+    border-radius: 10%;
+    background-color: black;
+    border-radius: 40px;
+    color: rgb(239, 240, 234);
+  }
+  input:hover {
+    background-color: black;
+    border: 2px solid #0638ec;
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn-1 {
+    margin-left: 15%;
+    background: black;
+    color: rgb(209, 204, 204);
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid rgb(31, 29, 29);
+  }
+  .btn-1:hover {
+    color: rgb(237, 236, 234);
+  }
+  .search-btn1 {
+    height: 30px;
+    width: 90px;
+    margin-right: 1%;
+    color: rgb(11, 11, 11);
+    background-color: rgb(224, 222, 215);
+    border-radius: 10px;
+    border: 0;
+  }
+  .com-btn {
+    margin-left: 1%;
+  
+    color: rgb(180, 176, 176);
+  }
+  .btn-2 {
+    color: rgb(209, 204, 204);
+    border: none;
+    font-style: inherit;
+    font-size: 19px;
+    margin-left: 1%;
+    cursor: pointer;
+  }
+  .input1 {
+    border: 1px solid rgb(138, 138, 158);
+    margin-left: 20%;
+    height: 35px;
+    width: 40vw;
+  
+    border-radius: 10%;
+    background-color: rgb(28, 27, 27);
+  
+    border-radius: 40px;
+  
+    color: rgb(56, 147, 104);
+  }
+  .search-btn {
+    height: 30px;
+    width: 30px;
+    margin-left: 3.5%;
+  }
+  .btn-3 {
+    margin-left: 6%;
+    background: rgb(0, 0, 0);
+    color: rgb(180, 176, 176);
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    width: 70px;
+    border: none;
+
+  }
+  .btn-2:hover {
+    color: rgb(8, 240, 19);
+  }
+  .btn-3:hover {
+    color: rgb(10, 240, 45);
+  }
+  .btn-4 {
+    margin-left: 1%;
+    background: black;
+    color: rgb(180, 176, 176);
+    border: none;
+    font-size: 19px;
+  
+    cursor: pointer;
+  }
+  .btn-4:hover {
+    color: rgb(7, 245, 35);
+  }
+  .btn-5 {
+    background: black;
+    color: rgb(213, 208, 208);
+    border: none;
+    font-size: 18px;
+    width: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .btn-5:hover {
+    color: red;
+  }

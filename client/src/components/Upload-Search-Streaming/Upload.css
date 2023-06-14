@@ -1,0 +1,112 @@
+#container{
+    width: 600px;
+    height:600px;
+    margin:10% 28%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(37, 48, 37);
+    flex-direction: column;
+    border-radius: 3%;
+    display: flex;
+    z-index: 2; 
+}
+h2{
+    margin-left: 3%;
+}
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#video-input{
+    border: 1px solid gray;
+    color: rgb(246, 243, 239);
+    border-radius: 3px;
+    padding: 20px;
+    background-color:black;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+h1{
+    margin-left: 3%;
+}
+#tittle-textarea{
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    background-color:black;
+}
+#desc-textarea{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color:black;
+    color: white;
+    margin-top: 5%;
+}
+.main-div {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.main-div label {
+    color: rgb(228, 211, 211);
+    font-size: 14px;
+}
+
+.main-div select {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 0;
+}
+
+.div-container {
+    margin-left: 50px;
+    border: 0;
+}
+
+#first-div {
+    margin-left: 3%;
+}
+#img-input{
+    border: 1px solid gray;
+    color: antiquewhite;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: transparent;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#close{
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    height: 28px;
+    width:58px;
+    font-size: 22px;
+    cursor: pointer;
+    opacity:0.9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(246, 240, 240);
+    background-color:rgb(251, 27, 27);
+}
+#close:hover{
+    opacity: 1;
+}
+#button-save {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2.4rem;
+    width: 7rem;
+    margin-left: 41%;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 26px;
+    border: 0;
+    background-color: rgb(20, 246, 54);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,116 @@
+main{
+    display: flex;
+}
+.sec-first{
+    width: 60%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+img{
+    width:100%;
+    height: 100vh;
+    opacity:0.3;
+   
+}
+.logo{
+    position: absolute;
+    top:8vh;
+    color:azure;
+
+}
+
+.sec-first h1{
+    font-size: 105px;
+    margin: 132px 0 0 50px;
+    color:white;
+}
+.sec-first div{
+    font-size: 18px;
+    color: white;
+    margin: 12px 0 0 55px;
+    width: 400px;
+}
+.sec-first button{
+   
+    border: none;
+    color: white;
+    background-color:#dcdcdc00;
+    font-size: large;
+    position: absolute;
+    bottom: 10vh;
+    left: 15vh;
+    text-decoration: underline;
+    /* margin: 170px 0 0 50px; */
+    cursor: pointer;
+}
+.sec-first button:hover{
+color:rgb(14, 221, 232);
+
+}
+.sec-second{
+    background-color: rgb(3, 59, 109);
+    color: white;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-second form h1{
+    font-size: 45px;
+}
+.sec-second form input{
+    padding: 7px 1px;
+    width: 260px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(18, 18, 41);
+    border: none;
+    border-bottom: 1px solid white;
+}
+.sec-second form input:focus{
+    border: 5px solid green;
+    color:blue;
+    background-color: white;
+    /* font-weight: bold;
+    font-size: larger; */
+}
+.sec-second form input.submit{
+     margin-top: 30px;
+    padding: 7px 17px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:blue;
+    border-radius: 30px;
+   border: none;
+
+    cursor: pointer; 
+}
+.sec-second form input.submit:hover{
+    background-color: rgb(13, 160, 196);
+    color:white;
+}
+.sec-second form input.submit:focus{
+    background-color: rgba(72, 179, 240, 0.986);
+    color:white;
+}
+.register form{
+    margin-top: 10px;
+}
+#btn-circle{
+    border-radius: 50%;
+    width: 60px;
+    font-size: large;
+    height: 60px;
+    background-color: rgb(160, 158, 158);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 5px soloid blue;
+}
+::placeholder {
+    color: white;
+}
