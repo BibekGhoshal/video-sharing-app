@@ -11,7 +11,7 @@ const Search = ()=>{
     const [allVidoesData, setAllVideosData] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:8080/home")
+        axios.get("https://videosharingapp.onrender.com/home")
             .then((res) => {
                 setAllVideosData(res.data)
             }).catch((err) => {
@@ -21,7 +21,7 @@ const Search = ()=>{
     }, []);
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/search${query}`)
+        axios.get(`https://videosharingapp.onrender.com/search${query}`)
             .then((res) => {
                 setVideos(res.data)
             }).catch((err) => {

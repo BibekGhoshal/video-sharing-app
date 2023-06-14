@@ -14,7 +14,7 @@ const Deletecard = ({ setToggle, data1, setVisible, setCard }) => {
       const videoId = data1._id;
       console.log(videoId);
 
-      await axios.delete(`http://localhost:8080/delete/${videoId}`);
+      await axios.delete(`https://videosharingapp.onrender.com/delete/${videoId}`);
       console.log("Video deleted successfully");
 
       closePopup();

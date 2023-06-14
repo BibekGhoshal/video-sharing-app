@@ -64,7 +64,7 @@ const Upload = ({ setOpen }) => {
         const newToken = localStorage.getItem("mytoken");
       
         try {
-          const response = await axios.post("http://localhost:8080/upload", { ...inputs }, {
+          const response = await axios.post("https://videosharingapp.onrender.com/upload", { ...inputs }, {
             headers: {
               Authorization: newToken
             }

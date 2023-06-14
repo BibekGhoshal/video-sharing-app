@@ -11,7 +11,7 @@ const Content = () => {
     const [videoData, setVideoData] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:8080/home")
+        axios.get("https://videosharingapp.onrender.com/home")
             .then((res) => {
                 setData(res.data)
                 setVideoData(res.data)

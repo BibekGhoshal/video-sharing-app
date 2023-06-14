@@ -24,7 +24,7 @@ const Register = () => {
     if (password !== cpassword) {
       window.alert("Password doesn't match confirm password");
     } else {
-      const res = await fetch('http://localhost:8080/register', {
+      const res = await fetch('https://videosharingapp.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -18,7 +18,7 @@ function Myvideos () {
     console.log("my videos", newToken);
     console.log(localStorage.getItem("mytoken"));
     
-    axios.get("http://localhost:8080/myvideos", {
+    axios.get("https://videosharingapp.onrender.com/myvideos", {
       headers: {
         Authorization: newToken
       }
